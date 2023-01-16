@@ -2,7 +2,7 @@ import express from 'express';
 import path from 'path';
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
